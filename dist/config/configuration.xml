@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><samconfig>
+	<group name="general">
+		<value key="repository_local"></value>
+		<value key="repository_remote"></value>
+		<value key="repository_remote_personal"></value>
+		<value key="filetransfer_class">com.plexus.sam.net.FTPTransferModule</value>
+		<value key="repository_xml_path">data/repository.xml</value>
+		<value key="playlists_xml_path">data/playlists.xml</value>
+		<value key="autoplayer">off</value>
+		<value key="version">1.0.1</value>
+	</group>
+	<group name="gui">
+		<value key="numberOfSongEvents">5</value>
+		<value key="mainwindow_width">800</value>
+		<value key="mainwindow_height">600</value>
+		<value key="mainwindow_location_x">0</value>
+		<value key="mainwindow_location_y">0</value>
+		<value key="playerpanel_dividerlocation">164</value>
+		<value key="playlistpanel_dividerlocation">75</value>
+		<value key="last_playlist"></value>
+		<value key="volume">700.0</value>
+	</group>
+	<group name="i18n">
+		<value key="set_locale">true</value>
+		<value key="language_code">en</value>
+		<value key="country_code">US</value>
+	</group>
+	<group name="ftp">
+		<value key="password"></value>
+		<value key="user_id"></value>
+		<value key="hostname"></value>
+		<value key="connect_mode">PASSIVE</value>
+		<value key="control_port">21</value>
+		<value key="server_type">UNIX</value>
+		<value key="transfer_type">BINARY</value>
+		<value key="server_locale">en_US</value>
+	</group>
+	<group name="audio">
+		<value key="do_overlap">true</value>
+		<value key="overlap_ms">2000</value>
+	</group>
+	<group name="triggers">
+		<value key="fadeout_millis">300</value> <!-- Set the speed to fade in/out with as a delay in milliseconds    -->
+		<value key="fadeout_volume">150</value> <!-- Volume to fade out to when a trigger is started, from 0 to 1000 -->
+		<value key="volume">700</value> <!-- The value the song clips are played at, from 0 to 1000 -->
+		<value key="active">false</value>
+	</group>
+	<group name="sync">
+		<value key="interval">3600</value>
+		<value key="autosync">false</value>
+		<value key="last">Friday, October 14, 2005 1:48:52 AM CEST</value>
+	</group>
+	<group name="comm">
+		<value key="timeoutms">3000</value>
+		<value key="serialport"></value>
+		<value key="baudRate">1200</value>
+		<value key="databits">8</value>
+		<value key="stopbits">1</value>
+		<value key="parity">0</value>
+		<value key="flowcontrol">4</value>
+	</group>
+</samconfig>

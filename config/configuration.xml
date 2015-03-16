@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><samconfig>
+	<group name="general">
+		<value key="repository_local">C:\Documents and Settings\Arne\workspace\SAM\SAM-0.9rc2\songs</value>
+		<value key="repository_remote">/home/arne/gtk-gnutella-downloads</value>
+		<value key="repository_remote_personal"/>
+		<value key="filetransfer_class">com.plexus.sam.net.FTPTransferModule</value>
+		<value key="repository_xml_path">data/repository.xml</value>
+		<value key="playlists_xml_path">data/playlists.xml</value>
+		<value key="autoplayer">off</value>
+		<value key="version">1.0</value>
+	</group>
+	<group name="gui">
+		<value key="numberOfSongEvents">5</value>
+		<value key="mainwindow_width">1028</value>
+		<value key="mainwindow_height">579</value>
+		<value key="mainwindow_location_x">0</value>
+		<value key="mainwindow_location_y">31</value>
+		<value key="playerpanel_dividerlocation">157</value>
+		<value key="playlistpanel_dividerlocation">92</value>
+		<value key="last_playlist">dyba</value>
+		<value key="volume">870.0</value>
+	<value key="triggerPanel_dividerlocation">356</value></group>
+	<group name="i18n">
+		<value key="set_locale">true</value>
+		<value key="language_code">en</value>
+		<value key="country_code">US</value>
+	</group>
+	<group name="ftp">
+		<value key="password">arend01</value>
+		<value key="user_id">arne</value>
+		<value key="hostname">192.168.0.206</value>
+		<value key="connect_mode">PASSIVE</value>
+		<value key="control_port">21</value>
+		<value key="server_type">UNIX</value>
+		<value key="transfer_type">BINARY</value>
+		<value key="server_locale">en_US</value>
+	</group>
+	<group name="audio">
+		<value key="do_overlap">true</value>
+		<value key="overlap_ms">2000</value>
+	</group>
+	<group name="triggers">
+		<value key="fadeout_millis">1500</value> <!-- Set the speed to fade in/out with as a delay in milliseconds    -->
+		<value key="fadeout_volume">94</value> <!-- Volume to fade out to when a trigger is started, from 0 to 1000 -->
+		<value key="volume">927</value> <!-- The value the song clips are played at, from 0 to 1000 -->
+		<value key="active">true</value>
+	</group>
+	<group name="sync">
+		<value key="interval">3600</value>
+		<value key="autosync">false</value>
+		<value key="last">Saturday, October 15, 2005 5:08:48 PM CEST</value>
+	</group>
+	<group name="comm">
+		<value key="timeoutms">3000</value>
+		<value key="serialport">COM3</value>
+		<value key="baudRate">1200</value>
+		<value key="databits">8</value>
+		<value key="stopbits">1</value>
+		<value key="parity">2</value>
+		<value key="flowcontrol">0</value>
+	</group>
+</samconfig>

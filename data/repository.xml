@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.5.0_05" class="java.beans.XMLDecoder"> 
+ <long>19</long> 
+ <object class="com.plexus.sam.audio.SongGroup"> 
+  <void property="name"> 
+   <string>corrupt</string> 
+  </void> 
+  <void property="songs"> 
+   <array class="com.plexus.sam.audio.Song" length="3"> 
+    <void index="0"> 
+     <object class="com.plexus.sam.audio.Mp3Song"> 
+      <void property="file"> 
+       <string>C:\Documents and Settings\Arne\workspace\SAM\SAM-0.9rc2\songs\corrupt\Jacques Brel - Seul.mp3</string> 
+      </void> 
+      <void property="id"> 
+       <long>9</long> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="1"> 
+     <object class="com.plexus.sam.audio.Mp3Song"> 
+      <void property="file"> 
+       <string>C:\Documents and Settings\Arne\workspace\SAM\SAM-0.9rc2\songs\corrupt\jacques brel - titine.mp3</string> 
+      </void> 
+      <void property="id"> 
+       <long>10</long> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="2"> 
+     <object class="com.plexus.sam.audio.Mp3Song"> 
+      <void property="file"> 
+       <string>C:\Documents and Settings\Arne\workspace\SAM\SAM-0.9rc2\songs\corrupt\jacques brel comment tuer l&apos;amant.mp3</string> 
+      </void> 
+      <void property="id"> 
+       <long>11</long> 
+      </void> 
+     </object> 
+    </void> 
+   </array> 
+  </void> 
+ </object> 
+ <object class="com.plexus.sam.audio.SongGroup"> 
+  <void property="name"> 
+   <string>jacques_brel</string> 
+  </void> 
+  <void property="songs"> 
+   <array class="com.plexus.sam.audio.Song" length="7"> 
+    <void index="0"> 
+     <object class="com.plexus.sam.audio.Mp3Song"> 
+      <void property="file"> 
+       <string>C:\Documents and Settings\Arne\workspace\SAM\SAM-0.9rc2\songs\jacques_brel\Jacques Brel - Mathilde.mp3</string> 
+      </void> 
+      <void property="id"> 
+       <long>12</long> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="1"> 
+     <object class="com.plexus.sam.audio.Mp3Song"> 
+      <void property="file"> 
+       <string>C:\Documents and Settings\Arne\workspace\SAM\SAM-0.9rc2\songs\jacques_brel\Jacques Brel - Seul.mp3</string> 
+      </void> 
+      <void property="id"> 
+       <long>13</long> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="2"> 
+     <object class="com.plexus.sam.audio.Mp3Song"> 
+      <void property="file"> 
+       <string>C:\Documents and Settings\Arne\workspace\SAM\SAM-0.9rc2\songs\jacques_brel\Jacques.Brel.raconte.Pierre.et.le.loup-Conte.pour.enfants-.mp3</string> 
+      </void> 
+      <void property="id"> 
+       <long>14</long> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="3"> 
+     <object class="com.plexus.sam.audio.Mp3Song"> 
+      <void property="file"> 
+       <string>C:\Documents and Settings\Arne\workspace\SAM\SAM-0.9rc2\songs\jacques_brel\Jaques Brel- Ne me quitte pas.mp3</string> 
+      </void> 
+      <void property="id"> 
+       <long>15</long> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="4"> 
+     <object class="com.plexus.sam.audio.Mp3Song"> 
+      <void property="file"> 
+       <string>C:\Documents and Settings\Arne\workspace\SAM\SAM-0.9rc2\songs\jacques_brel\jacques brel - titine.mp3</string> 
+      </void> 
+      <void property="id"> 
+       <long>16</long> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="5"> 
+     <object class="com.plexus.sam.audio.Mp3Song"> 
+      <void property="file"> 
+       <string>C:\Documents and Settings\Arne\workspace\SAM\SAM-0.9rc2\songs\jacques_brel\jacques brel comment tuer l&apos;amant.mp3</string> 
+      </void> 
+      <void property="id"> 
+       <long>17</long> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="6"> 
+     <object class="com.plexus.sam.audio.Mp3Song"> 
+      <void property="file"> 
+       <string>C:\Documents and Settings\Arne\workspace\SAM\SAM-0.9rc2\songs\jacques_brel\jacques brel-nouvel album-l&apos;amour est mort.mp3</string> 
+      </void> 
+      <void property="id"> 
+       <long>18</long> 
+      </void> 
+     </object> 
+    </void> 
+   </array> 
+  </void> 
+ </object> 
+ <object class="com.plexus.sam.audio.SongGroup"> 
+  <void property="name"> 
+   <string>incomplete</string> 
+  </void> 
+  <void id="SongArray0" property="songs"/> 
+  <void property="songs"> 
+   <object idref="SongArray0"/> 
+  </void> 
+ </object> 
+ <object class="com.plexus.sam.audio.SongGroup"> 
+  <void property="name"> 
+   <string>complete</string> 
+  </void> 
+  <void property="songs"> 
+   <array class="com.plexus.sam.audio.Song" length="7"> 
+    <void index="0"> 
+     <object class="com.plexus.sam.audio.Mp3Song"> 
+      <void property="file"> 
+       <string>C:\Documents and Settings\Arne\workspace\SAM\SAM-0.9rc2\songs\complete\Company Flow, Cannibal Ox, Aesop Rock, RJD2 - Kill Em All [Aesop Rock] - Def Jux Presents.mp3</string> 
+      </void> 
+      <void property="id"> 
+       <long>1</long> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="1"> 
+     <object class="com.plexus.sam.audio.Mp3Song"> 
+      <void property="file"> 
+       <string>C:\Documents and Settings\Arne\workspace\SAM\SAM-0.9rc2\songs\complete\Company Flow, Cannibal Ox, Aesop Rock, RJD2 - Silver Fox [RJD2] - Def Jux Presents.mp3</string> 
+      </void> 
+      <void property="id"> 
+       <long>2</long> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="2"> 
+     <object class="com.plexus.sam.audio.Mp3Song"> 
+      <void property="file"> 
+       <string>C:\Documents and Settings\Arne\workspace\SAM\SAM-0.9rc2\songs\complete\Definitive Jux Presents Vol 2 - Sneak Preview.mp3</string> 
+      </void> 
+      <void property="id"> 
+       <long>4</long> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="3"> 
+     <object class="com.plexus.sam.audio.Mp3Song"> 
+      <void property="file"> 
+       <string>C:\Documents and Settings\Arne\workspace\SAM\SAM-0.9rc2\songs\complete\Definitive Jux Presents Vol 2 - Stepfather Factory.mp3</string> 
+      </void> 
+      <void property="id"> 
+       <long>5</long> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="4"> 
+     <object class="com.plexus.sam.audio.Mp3Song"> 
+      <void property="file"> 
+       <string>C:\Documents and Settings\Arne\workspace\SAM\SAM-0.9rc2\songs\complete\Murs _ Mr. Lif - Def Jux.mp3</string> 
+      </void> 
+      <void property="id"> 
+       <long>6</long> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="5"> 
+     <object class="com.plexus.sam.audio.Mp3Song"> 
+      <void property="file"> 
+       <string>C:\Documents and Settings\Arne\workspace\SAM\SAM-0.9rc2\songs\complete\RJD2 - i really like your def jux baby tee.mp3</string> 
+      </void> 
+      <void property="id"> 
+       <long>7</long> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="6"> 
+     <object class="com.plexus.sam.audio.Mp3Song"> 
+      <void property="file"> 
+       <string>C:\Documents and Settings\Arne\workspace\SAM\SAM-0.9rc2\songs\complete\rjd2 - def jux presents - silver fox _fea rjd2, cannibal ox, aesop rock_.mp3</string> 
+      </void> 
+      <void property="id"> 
+       <long>8</long> 
+      </void> 
+     </object> 
+    </void> 
+   </array> 
+  </void> 
+ </object> 
+</java> 

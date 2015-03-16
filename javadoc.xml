@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="javadoc">
+<target name="javadoc">
+<javadoc access="private" author="true" classpath="lib/tritonus_share-0.3.6.jar:lib/edtftpj-1.5.1.jar:lib/jl1.0.jar:bin:/home/plexus/Programs/eclipse/plugins/org.junit_3.8.1/junit.jar:lib/mp3spi1.9.3.jar" destdir="javadoc" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" packagenames="com.plexus.sam.config,com.plexus.sam.event,com.plexus.sam.gui.actions,com.plexus.sam.gui.models,com.plexus.sam.gui.dialogs,com.plexus.sam.audio,com.plexus.sam.gui,com.plexus.debug,com.plexus.sam.testcases,com.plexus.sam,com.plexus.sam.net" sourcepath="src" splitindex="true" use="true" version="true"/>
+</target>
+</project>

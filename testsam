@@ -1,0 +1,8 @@
+rm -rf test/./
+mkdir test/
+cp SAM-*.zip test/./
+cd test
+unzip *
+java -jar SAM-bin.jar
+
+

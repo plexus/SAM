@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.5.0_03" class="java.beans.XMLDecoder"> 
+ <object class="com.plexus.sam.gui.config.ConfigurationPanel"> 
+  <void id="ArrayList0" property="groupPanels"> 
+   
+   <void method="add">
+    <object class="com.plexus.sam.gui.config.ConfigGroupPanel"> 
+     <void property="groupname"> 
+      <string>general</string> 
+     </void> 
+     <void property="widgets"> 
+      <object class="java.util.ArrayList">
+
+      <void method="add"> 
+       <object class="com.plexus.sam.gui.config.FileWidget"> 
+        <void property="descriptionKey"> 
+         <string>general_repository_local</string> 
+        </void> 
+        <void property="group"> 
+         <string>general</string> 
+        </void> 
+        <void property="key"> 
+         <string>repository_local</string> 
+        </void>    
+       </object> 
+      </void> 
+      
+      <void method="add"> 
+       <object class="com.plexus.sam.gui.config.TextWidget"> 
+        <void property="descriptionKey"> 
+         <string>general_repository_remote</string> 
+        </void> 
+        <void property="group"> 
+         <string>general</string> 
+        </void> 
+        <void property="key"> 
+         <string>repository_remote</string> 
+        </void> 
+       </object> 
+      </void> 
+
+      <void method="add"> 
+      <object class="com.plexus.sam.gui.config.TextWidget"> 
+        <void property="descriptionKey"> 
+         <string>general_remote_personal</string> 
+        </void> 
+        <void property="group"> 
+         <string>general</string> 
+        </void> 
+        <void property="key"> 
+         <string>repository_remote_personal</string> 
+        </void> 
+       </object> 
+      </void> 
+      
+      <void method="add"> 
+       <object class="com.plexus.sam.gui.config.ChoiceWidget"> 
+        <void property="descriptionKey"> 
+         <string>general_filetransfer_class</string> 
+        </void> 
+        <void property="group"> 
+         <string>general</string> 
+        </void> 
+        <void property="key"> 
+         <string>filetransfer_class</string> 
+        </void> 
+        <void property="keyValueMap"> 
+         <object class="java.util.HashMap"> 
+          <void method="put"> 
+	   <string>ftp</string> 
+           <string>com.plexus.sam.net.FTPTransferModule</string> 
+          </void> 
+         </object> 
+        </void> 
+       </object> 
+      </void> 
+      
+      </object>
+      </void> <!-- widgets -->
+      </object>
+      </void> <!-- Panel -->
+      
+   <void method="add">
+    <object class="com.plexus.sam.gui.config.ConfigGroupPanel"> 
+     <void property="groupname"> 
+      <string>ftp</string> 
+     </void> 
+   
+     <void property="widgets"> 
+      <object class="java.util.ArrayList">
+      <void method="add"> 
+       <object class="com.plexus.sam.gui.config.TextWidget"> 
+        <void property="descriptionKey"> 
+         <string>ftp_uid</string> 
+        </void> 
+        <void property="group"> 
+         <string>ftp</string> 
+        </void> 
+        <void property="key"> 
+         <string>user_id</string> 
+        </void> 
+       </object> 
+      </void> 
+   
+      <void method="add"> 
+       <object class="com.plexus.sam.gui.config.TextWidget"> 
+        <void property="descriptionKey"> 
+         <string>ftp_pwd</string> 
+        </void> 
+        <void property="group"> 
+         <string>ftp</string> 
+        </void> 
+        <void property="key"> 
+         <string>password</string> 
+        </void> 
+       </object> 
+      </void> 
+         
+      <void method="add"> 
+       <object class="com.plexus.sam.gui.config.TextWidget"> 
+        <void property="descriptionKey"> 
+         <string>ftp_hostname</string> 
+        </void> 
+        <void property="group"> 
+         <string>ftp</string> 
+        </void> 
+        <void property="key"> 
+         <string>hostname</string> 
+        </void> 
+       </object> 
+      </void> 
+      
+      <void method="add"> 
+       <object class="com.plexus.sam.gui.config.NumberWidget"> 
+        <void property="alignmentX"> 
+         <float>0.0068965517</float> 
+        </void> 
+        <void property="descriptionKey"> 
+         <string>ftp_control_port</string> 
+        </void> 
+        <void property="group"> 
+         <string>ftp</string> 
+        </void> 
+        <void property="key"> 
+         <string>control_port</string> 
+        </void> 
+       </object> 
+      </void> 
+   
+      <void method="add"> 
+       <object class="com.plexus.sam.gui.config.ChoiceWidget"> 
+        <void property="descriptionKey"> 
+         <string>ftp_connect_mode</string> 
+        </void> 
+        <void property="group"> 
+         <string>ftp</string> 
+        </void> 
+        <void property="key"> 
+         <string>connect_mode</string> 
+        </void> 
+        <void property="keyValueMap"> 
+         <object class="java.util.HashMap"> 
+          <void method="put"> 
+           <string>ACTIVE</string> 
+           <string>ACTIVE</string> 
+          </void> 
+          <void method="put"> 
+           <string>PASSIVE</string> 
+           <string>PASSIVE</string> 
+          </void> 
+         </object> 
+        </void> 
+       </object> 
+      </void> 
+      
+      <void method="add"> 
+       <object class="com.plexus.sam.gui.config.ChoiceWidget"> 
+        <void property="descriptionKey"> 
+         <string>ftp_server_type</string> 
+        </void> 
+        <void property="group"> 
+         <string>ftp</string> 
+        </void> 
+        <void property="key"> 
+         <string>server_type</string> 
+        </void> 
+        <void property="keyValueMap"> 
+         <object class="java.util.HashMap"> 
+          <void method="put"> 
+           <string>UNIX</string> 
+           <string>UNIX</string> 
+          </void> 
+          <void method="put"> 
+           <string>WIN</string> 
+           <string>WIN</string> 
+          </void> 
+         </object> 
+        </void> 
+       </object> 
+      </void> 
+      
+      </object>
+     </void> 
+    </object> 
+   </void> 
+   
+   <void method="add"> 
+    <object class="com.plexus.sam.gui.config.ConfigGroupPanel"> 
+     <void property="groupname"> 
+      <string>locale</string> 
+     </void> 
+     <void property="widgets"> 
+      <object class="java.util.ArrayList">
+      
+      <void method="add"> 
+       <object class="com.plexus.sam.gui.config.ChoiceWidget"> 
+        <void property="descriptionKey"> 
+         <string>locale_local</string> 
+        </void> 
+        <void property="group"> 
+         <string>i18n</string> 
+        </void> 
+        <void property="key"> 
+         <string>set_locale</string> 
+        </void> 
+        <void property="keyValueMap"> 
+         <object class="java.util.HashMap"> 
+          <void method="put"> 
+           <string>true</string> 
+           <string>true</string> 
+          </void> 
+          <void method="put"> 
+           <string>false</string> 
+           <string>false</string> 
+          </void> 
+         </object> 
+        </void> 
+       </object> 
+      </void> 
+      
+      <void method="add"> 
+       <object class="com.plexus.sam.gui.config.ChoiceWidget"> 
+        <void property="descriptionKey"> 
+         <string>locale_language_code</string> 
+        </void> 
+        <void property="group"> 
+         <string>i18n</string> 
+        </void> 
+        <void property="key"> 
+         <string>language_code</string> 
+        </void> 
+        <void property="keyValueMap"> 
+         <object class="java.util.HashMap"> 
+          <void method="put"> 
+           <string>nl</string> 
+           <string>nl</string> 
+          </void> 
+          <void method="put"> 
+           <string>en</string> 
+           <string>en</string> 
+          </void> 
+         </object> 
+        </void> 
+       </object> 
+      </void> 
+      
+      </object>
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  
+  <void property="groupPanels"> 
+   <object idref="ArrayList0"/> 
+  </void> 
+ </object> 
+</java> 

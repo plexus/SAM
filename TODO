@@ -1,0 +1,61 @@
+-lokale filetransfer
+-browse fixen
+
+
+feature request
+===============
+-vu meter
+-als gepauseerd ook stop mogelijk maken -> is dan terug naar begin
+-toolbar
+-menubar
+-ftp statusbalk
+-compressor
+-linux installatie cdtje bakken
+
+
+
+done
+====
+-Let the synchronization happen in a seperate thread
+-SimplePlaylistPanel and DynamicPlaylistPanel
+-Update the songbrowser while synchronizing
+-Configuration gui
+-automatic start/stop feature
+-save gui settings
+-volumecontrol
+-extend dynamic playlist with events
+-do something usefull when no repository/playlist file is found
+-bij het inladen van een playlist checken dat alle song/groups nog aanwezig zijn!
+-do nothing when no ftp server is found
+-ignore files on the server that are not in a known format
+-personal tunes
+-2 sec overlap
+-tijdlijn
+-playlistnaam moet uniek zijn
+-geen zelfde artiest binnen drie nummers
+-Show correct genre instead of numeric id
+-about box
+-toon volgende spots (3 ?)
+-volume in db-schaal ipv pcm
+-timecellrenderer in auto start stop table
+-serial port triggers
+-ant script
+--compileren
+--zip maken die uitpakt en installeert
+-jre en dergelijke bijeensprokkelen voor verschillende platformen
+-in autoplayrule komen de nieuwe playlists niet in de lijst voor
+
+Known issues
+============
+*bij opstarten wordt twee maal een playlist ingesteld in de player 
+-eerst de default (door het laden van de lijst met playlist dropdown?)
+-dan van de configuratie
+
+*klopt de crossover value?
+
+nakijken
+========
+Wat gebeurd er wanneer een simpleplaylist opstart, zonder dat er nummers inzitten
+->playknop moet disabled zijn
+->na toevoegen songs moet play/next enabled zijn
+->maw moet een playlist_changed event naar zijn luisteraars zenden

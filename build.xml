@@ -1,0 +1,124 @@
+<project name="SAM" default="dist-bin" basedir=".">
+    <description>
+		Buildfile for the SAM Automated Musicplayer project
+    </description>
+	
+  <!-- set global properties for this build -->
+  <property name="src" location="src"/>
+  <property name="dist"  location="dist"/>
+  <property name="build" location="build"/>
+  <property name="3rdparty"  location="lib"/>
+  <property name="version" value="1.0"/>
+	
+  <target name="init">
+    <!-- Create the time stamp -->
+    <tstamp/>
+    <!-- Create the build directory structure used by compile -->
+    <mkdir dir="${build}"/>
+  </target>
+	
+
+
+  <target name="compile" depends="init"
+        description="compile the source " >
+    <!-- Compile the java code from ${src} into ${build} -->
+    <javac srcdir="${src}" destdir="${build}" compiler="modern" 
+    	excludes="
+    		com/plexus/sam/testcases/*
+	    	com/plexus/sam/debug/*
+    	"	
+    	classpath="
+	    	lib/comm.jar
+    		:lib/edtftpj-1.5.1.jar
+    		:lib/jcommon-1.0.0-pre3.jar
+	    	:lib/jcommon-1.0.0-pre3-junit.jar
+	    	:lib/jcommon-xml-1.0.0-pre3.jar
+    		:lib/jfreechart.jar
+	    	:lib/jl1.0.jar
+    		:lib/mp3spi1.9.3.jar
+    		:lib/RXTXcomm.jar
+    	 	:lib/tritonus_share-0.3.6.jar
+			:./
+    	" />
+  </target>
+
+  <target name="dist" depends="dist-src" description="generate the full distribution" />
+	
+  <target name="dist-bin" depends="compile" description="generate the binary distribution" >
+	<!-- the necessary data files, empty for distribution -->
+  	<mkdir dir="${dist}/data"/>
+  	<copy file="./data/beanformat_empty.xml" tofile="${dist}/data/autoplayrules.xml" />
+  	<copy file="./data/beanformat_empty.xml" tofile="${dist}/data/playlists.xml" />
+  	<copy file="./data/triggers_empty.xml" tofile="${dist}/data/triggers.xml" />
+  	<copy file="./data/repository_empty.xml" tofile="${dist}/data/repository.xml" />
+
+  	<copy todir="${dist}/data" file="./data/config_gui.xml" />
+  	<!-- Copy th configuration file -->
+  	<copy file="./config/configuration_clean.xml" tofile="${dist}/config/configuration.xml"/> 
+
+  	<copy todir="${dist}">
+  		<fileset dir="./">
+  			<include name="icons"/>
+  			<include name="icons/*"/>
+  			<include name="lib/javax.comm.properties"/>
+  		</fileset>
+	</copy>
+  	
+  	<copy todir="${build}/com/plexus/sam/i18n/">
+  		<fileset dir="./src/com/plexus/sam/i18n/" />
+  	</copy>
+  	
+    <!-- Put everything in ${build} into the MyProject-${DSTAMP}.jar file -->
+    <jar jarfile="${dist}/SAM-bin.jar" basedir="${build}">
+    	<zipfileset src="${3rdparty}/jcommon-1.0.0-pre3.jar" />
+    	<zipfileset src="${3rdparty}/jcommon-1.0.0-pre3-junit.jar" />
+    	<zipfileset src="${3rdparty}/jcommon-xml-1.0.0-pre3.jar" />    	
+    	<zipfileset src="${3rdparty}/jfreechart.jar" />
+    		
+    	<zipfileset src="${3rdparty}/edtftpj-1.5.1.jar" />
+
+    	<zipfileset src="${3rdparty}/jl1.0.jar" />
+    	<zipfileset src="${3rdparty}/tritonus_share-0.3.6.jar" />
+    	<zipfileset src="${3rdparty}/mp3spi1.9.3.jar" />
+
+    	<zipfileset src="${3rdparty}/comm.jar" />
+    	<zipfileset src="${3rdparty}/RXTXcomm.jar" />
+
+    	<fileset dir="./data">
+			<include name="config-gui.xml"/>
+    	</fileset>
+
+    		
+    	<manifest>
+    		<attribute name="Main-Class" value="com.plexus.sam.SAM"/>
+    		<attribute name="Class-Path" value="./" />
+   		</manifest>
+	</jar>
+  	<copy file="lib/run.sh" tofile="dist/run.sh" />
+  	<copy file="lib/run.bat" tofile="dist/run.bat" />
+  	
+  	<zip destfile="./SAM-${version}.zip">
+  		<fileset dir="${dist}" />
+  	</zip>
+  	
+  	<copy file="./SAM-${version}.zip" tofile="./dist-cd/SAM-${version}.zip"></copy>
+  	
+  </target>
+
+  <target name="dist-src">
+	<jar jarfile="SAM-src.jar" basedir="${src}">
+		<fileset dir="./" >
+			<include name="lib/" />
+			<include name="build.xml" />
+    		<include name="help/" />
+		</fileset>
+	</jar>  	 
+  </target>
+	
+  <target name="clean"
+        description="clean up" >
+    <!-- Delete the ${build} and ${dist} directory trees -->
+    <delete dir="${build}"/>
+    <delete dir="${dist}"/>
+  </target>
+</project>

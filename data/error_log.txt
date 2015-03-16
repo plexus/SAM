@@ -1,0 +1,1027 @@
+----------------------------------------------------------------
+Failed to activate external triggers.
+Stack trace:
+Thu Oct 13 16:56:22 CEST 2005
+com.plexus.sam.comm.TriggerModel.activate(TriggerModel.java:285)
+com.plexus.sam.gui.TriggerPanel.<init>(TriggerPanel.java:53)
+com.plexus.sam.gui.SAMgui.<init>(SAMgui.java:72)
+com.plexus.sam.gui.SAMgui.singleInstance(SAMgui.java:45)
+com.plexus.sam.SAM.<init>(SAM.java:97)
+com.plexus.sam.SAM.main(SAM.java:145)
+----------------------------------------------------------------
+One of the serial port parameters is not supported by the system.
+message : Invalid argument in nativeSetSerialPortParams
+Stack trace:
+Thu Oct 13 17:12:48 CEST 2005
+gnu.io.RXTXPort.nativeSetSerialPortParams(Native Method)
+gnu.io.RXTXPort.setSerialPortParams(RXTXPort.java:143)
+com.plexus.sam.comm.SerialPortConnection.setConnectionParameters(SerialPortConnection.java:116)
+com.plexus.sam.comm.SerialPortConnection.openConnection(SerialPortConnection.java:63)
+com.plexus.sam.comm.TriggerModel.activate(TriggerModel.java:281)
+com.plexus.sam.gui.TriggerPanel.<init>(TriggerPanel.java:53)
+com.plexus.sam.gui.SAMgui.<init>(SAMgui.java:72)
+com.plexus.sam.gui.SAMgui.singleInstance(SAMgui.java:45)
+com.plexus.sam.SAM.<init>(SAM.java:104)
+com.plexus.sam.SAM.main(SAM.java:152)
+----------------------------------------------------------------
+Failed to activate external triggers.
+Stack trace:
+Thu Oct 13 17:12:49 CEST 2005
+com.plexus.sam.comm.TriggerModel.activate(TriggerModel.java:285)
+com.plexus.sam.gui.TriggerPanel.<init>(TriggerPanel.java:53)
+com.plexus.sam.gui.SAMgui.<init>(SAMgui.java:72)
+com.plexus.sam.gui.SAMgui.singleInstance(SAMgui.java:45)
+com.plexus.sam.SAM.<init>(SAM.java:104)
+com.plexus.sam.SAM.main(SAM.java:152)
+----------------------------------------------------------------
+The serial port specified in the configuration could not be opened.
+message : /dev/ttyS0
+Stack trace:
+Thu Oct 13 17:26:36 CEST 2005
+gnu.io.CommPortIdentifier.getPortIdentifier(CommPortIdentifier.java:218)
+com.plexus.sam.comm.SerialPortConnection.openConnection(SerialPortConnection.java:41)
+com.plexus.sam.comm.TriggerModel.activate(TriggerModel.java:281)
+com.plexus.sam.gui.TriggerPanel.<init>(TriggerPanel.java:53)
+com.plexus.sam.gui.SAMgui.<init>(SAMgui.java:72)
+com.plexus.sam.gui.SAMgui.singleInstance(SAMgui.java:45)
+com.plexus.sam.SAM.<init>(SAM.java:104)
+com.plexus.sam.SAM.main(SAM.java:152)
+----------------------------------------------------------------
+Failed to activate external triggers.
+Stack trace:
+Thu Oct 13 17:26:40 CEST 2005
+com.plexus.sam.comm.TriggerModel.activate(TriggerModel.java:285)
+com.plexus.sam.gui.TriggerPanel.<init>(TriggerPanel.java:53)
+com.plexus.sam.gui.SAMgui.<init>(SAMgui.java:72)
+com.plexus.sam.gui.SAMgui.singleInstance(SAMgui.java:45)
+com.plexus.sam.SAM.<init>(SAM.java:104)
+com.plexus.sam.SAM.main(SAM.java:152)
+----------------------------------------------------------------
+Unable to write to the FTP connection.
+Stack trace:
+Fri Oct 14 01:43:34 CEST 2005
+java.net.PlainSocketImpl.socketConnect(Native Method)
+java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+java.net.SocksSocketImpl.connect(SocksSocketImpl.java:364)
+java.net.Socket.connect(Socket.java:507)
+java.net.Socket.connect(Socket.java:457)
+java.net.Socket.<init>(Socket.java:365)
+java.net.Socket.<init>(Socket.java:207)
+com.enterprisedt.net.ftp.FTPControlSocket.<init>(FTPControlSocket.java:213)
+com.enterprisedt.net.ftp.FTPClient.connect(FTPClient.java:571)
+com.plexus.sam.net.FTPTransferModule.connect(FTPTransferModule.java:109)
+com.plexus.sam.audio.Repository.synchronize(Repository.java:217)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Couldn't connect to the server to synchronize. Check your settings and network connection.
+Stack trace:
+Fri Oct 14 01:43:36 CEST 2005
+com.plexus.sam.audio.Repository.synchronize(Repository.java:250)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Unable to write to the FTP connection.
+Stack trace:
+Fri Oct 14 01:43:39 CEST 2005
+java.net.PlainSocketImpl.socketConnect(Native Method)
+java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+java.net.SocksSocketImpl.connect(SocksSocketImpl.java:364)
+java.net.Socket.connect(Socket.java:507)
+java.net.Socket.connect(Socket.java:457)
+java.net.Socket.<init>(Socket.java:365)
+java.net.Socket.<init>(Socket.java:207)
+com.enterprisedt.net.ftp.FTPControlSocket.<init>(FTPControlSocket.java:213)
+com.enterprisedt.net.ftp.FTPClient.connect(FTPClient.java:571)
+com.plexus.sam.net.FTPTransferModule.connect(FTPTransferModule.java:109)
+com.plexus.sam.audio.Repository.synchronize(Repository.java:217)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Couldn't connect to the server to synchronize. Check your settings and network connection.
+Stack trace:
+Fri Oct 14 01:43:41 CEST 2005
+com.plexus.sam.audio.Repository.synchronize(Repository.java:250)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Unable to write to the FTP connection.
+Stack trace:
+Fri Oct 14 01:43:42 CEST 2005
+java.net.PlainSocketImpl.socketConnect(Native Method)
+java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+java.net.SocksSocketImpl.connect(SocksSocketImpl.java:364)
+java.net.Socket.connect(Socket.java:507)
+java.net.Socket.connect(Socket.java:457)
+java.net.Socket.<init>(Socket.java:365)
+java.net.Socket.<init>(Socket.java:207)
+com.enterprisedt.net.ftp.FTPControlSocket.<init>(FTPControlSocket.java:213)
+com.enterprisedt.net.ftp.FTPClient.connect(FTPClient.java:571)
+com.plexus.sam.net.FTPTransferModule.connect(FTPTransferModule.java:109)
+com.plexus.sam.audio.Repository.synchronize(Repository.java:217)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Couldn't connect to the server to synchronize. Check your settings and network connection.
+Stack trace:
+Fri Oct 14 01:43:43 CEST 2005
+com.plexus.sam.audio.Repository.synchronize(Repository.java:250)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Unable to write to the FTP connection.
+Stack trace:
+Fri Oct 14 01:43:44 CEST 2005
+java.net.PlainSocketImpl.socketConnect(Native Method)
+java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+java.net.SocksSocketImpl.connect(SocksSocketImpl.java:364)
+java.net.Socket.connect(Socket.java:507)
+java.net.Socket.connect(Socket.java:457)
+java.net.Socket.<init>(Socket.java:365)
+java.net.Socket.<init>(Socket.java:207)
+com.enterprisedt.net.ftp.FTPControlSocket.<init>(FTPControlSocket.java:213)
+com.enterprisedt.net.ftp.FTPClient.connect(FTPClient.java:571)
+com.plexus.sam.net.FTPTransferModule.connect(FTPTransferModule.java:109)
+com.plexus.sam.audio.Repository.synchronize(Repository.java:217)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Couldn't connect to the server to synchronize. Check your settings and network connection.
+Stack trace:
+Fri Oct 14 01:43:45 CEST 2005
+com.plexus.sam.audio.Repository.synchronize(Repository.java:250)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Unable to write to the FTP connection.
+Stack trace:
+Fri Oct 14 01:43:48 CEST 2005
+java.net.PlainSocketImpl.socketConnect(Native Method)
+java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+java.net.SocksSocketImpl.connect(SocksSocketImpl.java:364)
+java.net.Socket.connect(Socket.java:507)
+java.net.Socket.connect(Socket.java:457)
+java.net.Socket.<init>(Socket.java:365)
+java.net.Socket.<init>(Socket.java:207)
+com.enterprisedt.net.ftp.FTPControlSocket.<init>(FTPControlSocket.java:213)
+com.enterprisedt.net.ftp.FTPClient.connect(FTPClient.java:571)
+com.plexus.sam.net.FTPTransferModule.connect(FTPTransferModule.java:109)
+com.plexus.sam.audio.Repository.synchronize(Repository.java:217)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Couldn't connect to the server to synchronize. Check your settings and network connection.
+Stack trace:
+Fri Oct 14 01:43:49 CEST 2005
+com.plexus.sam.audio.Repository.synchronize(Repository.java:250)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Unable to write to the FTP connection.
+Stack trace:
+Fri Oct 14 01:43:51 CEST 2005
+java.net.PlainSocketImpl.socketConnect(Native Method)
+java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+java.net.SocksSocketImpl.connect(SocksSocketImpl.java:364)
+java.net.Socket.connect(Socket.java:507)
+java.net.Socket.connect(Socket.java:457)
+java.net.Socket.<init>(Socket.java:365)
+java.net.Socket.<init>(Socket.java:207)
+com.enterprisedt.net.ftp.FTPControlSocket.<init>(FTPControlSocket.java:213)
+com.enterprisedt.net.ftp.FTPClient.connect(FTPClient.java:571)
+com.plexus.sam.net.FTPTransferModule.connect(FTPTransferModule.java:109)
+com.plexus.sam.audio.Repository.synchronize(Repository.java:217)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Couldn't connect to the server to synchronize. Check your settings and network connection.
+Stack trace:
+Fri Oct 14 01:43:52 CEST 2005
+com.plexus.sam.audio.Repository.synchronize(Repository.java:250)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Unable to write to the FTP connection.
+Stack trace:
+Fri Oct 14 01:43:55 CEST 2005
+java.net.PlainSocketImpl.socketConnect(Native Method)
+java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+java.net.SocksSocketImpl.connect(SocksSocketImpl.java:364)
+java.net.Socket.connect(Socket.java:507)
+java.net.Socket.connect(Socket.java:457)
+java.net.Socket.<init>(Socket.java:365)
+java.net.Socket.<init>(Socket.java:207)
+com.enterprisedt.net.ftp.FTPControlSocket.<init>(FTPControlSocket.java:213)
+com.enterprisedt.net.ftp.FTPClient.connect(FTPClient.java:571)
+com.plexus.sam.net.FTPTransferModule.connect(FTPTransferModule.java:109)
+com.plexus.sam.audio.Repository.synchronize(Repository.java:217)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Couldn't connect to the server to synchronize. Check your settings and network connection.
+Stack trace:
+Fri Oct 14 01:43:55 CEST 2005
+com.plexus.sam.audio.Repository.synchronize(Repository.java:250)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Unable to write to the FTP connection.
+Stack trace:
+Fri Oct 14 01:43:56 CEST 2005
+java.net.PlainSocketImpl.socketConnect(Native Method)
+java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+java.net.SocksSocketImpl.connect(SocksSocketImpl.java:364)
+java.net.Socket.connect(Socket.java:507)
+java.net.Socket.connect(Socket.java:457)
+java.net.Socket.<init>(Socket.java:365)
+java.net.Socket.<init>(Socket.java:207)
+com.enterprisedt.net.ftp.FTPControlSocket.<init>(FTPControlSocket.java:213)
+com.enterprisedt.net.ftp.FTPClient.connect(FTPClient.java:571)
+com.plexus.sam.net.FTPTransferModule.connect(FTPTransferModule.java:109)
+com.plexus.sam.audio.Repository.synchronize(Repository.java:217)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Couldn't connect to the server to synchronize. Check your settings and network connection.
+Stack trace:
+Fri Oct 14 01:43:57 CEST 2005
+com.plexus.sam.audio.Repository.synchronize(Repository.java:250)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Unable to write to the FTP connection.
+Stack trace:
+Fri Oct 14 01:44:06 CEST 2005
+java.net.PlainSocketImpl.socketConnect(Native Method)
+java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+java.net.SocksSocketImpl.connect(SocksSocketImpl.java:364)
+java.net.Socket.connect(Socket.java:507)
+java.net.Socket.connect(Socket.java:457)
+java.net.Socket.<init>(Socket.java:365)
+java.net.Socket.<init>(Socket.java:207)
+com.enterprisedt.net.ftp.FTPControlSocket.<init>(FTPControlSocket.java:213)
+com.enterprisedt.net.ftp.FTPClient.connect(FTPClient.java:571)
+com.plexus.sam.net.FTPTransferModule.connect(FTPTransferModule.java:109)
+com.plexus.sam.audio.Repository.synchronize(Repository.java:217)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Couldn't connect to the server to synchronize. Check your settings and network connection.
+Stack trace:
+Fri Oct 14 01:44:06 CEST 2005
+com.plexus.sam.audio.Repository.synchronize(Repository.java:250)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Unable to write to the FTP connection.
+Stack trace:
+Fri Oct 14 01:44:08 CEST 2005
+java.net.PlainSocketImpl.socketConnect(Native Method)
+java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+java.net.SocksSocketImpl.connect(SocksSocketImpl.java:364)
+java.net.Socket.connect(Socket.java:507)
+java.net.Socket.connect(Socket.java:457)
+java.net.Socket.<init>(Socket.java:365)
+java.net.Socket.<init>(Socket.java:207)
+com.enterprisedt.net.ftp.FTPControlSocket.<init>(FTPControlSocket.java:213)
+com.enterprisedt.net.ftp.FTPClient.connect(FTPClient.java:571)
+com.plexus.sam.net.FTPTransferModule.connect(FTPTransferModule.java:109)
+com.plexus.sam.audio.Repository.synchronize(Repository.java:217)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Couldn't connect to the server to synchronize. Check your settings and network connection.
+Stack trace:
+Fri Oct 14 01:44:08 CEST 2005
+com.plexus.sam.audio.Repository.synchronize(Repository.java:250)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Unable to write to the FTP connection.
+Stack trace:
+Fri Oct 14 01:44:09 CEST 2005
+java.net.PlainSocketImpl.socketConnect(Native Method)
+java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+java.net.SocksSocketImpl.connect(SocksSocketImpl.java:364)
+java.net.Socket.connect(Socket.java:507)
+java.net.Socket.connect(Socket.java:457)
+java.net.Socket.<init>(Socket.java:365)
+java.net.Socket.<init>(Socket.java:207)
+com.enterprisedt.net.ftp.FTPControlSocket.<init>(FTPControlSocket.java:213)
+com.enterprisedt.net.ftp.FTPClient.connect(FTPClient.java:571)
+com.plexus.sam.net.FTPTransferModule.connect(FTPTransferModule.java:109)
+com.plexus.sam.audio.Repository.synchronize(Repository.java:217)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Couldn't connect to the server to synchronize. Check your settings and network connection.
+Stack trace:
+Fri Oct 14 01:44:09 CEST 2005
+com.plexus.sam.audio.Repository.synchronize(Repository.java:250)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Unable to write to the FTP connection.
+Stack trace:
+Fri Oct 14 01:44:11 CEST 2005
+java.net.PlainSocketImpl.socketConnect(Native Method)
+java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+java.net.SocksSocketImpl.connect(SocksSocketImpl.java:364)
+java.net.Socket.connect(Socket.java:507)
+java.net.Socket.connect(Socket.java:457)
+java.net.Socket.<init>(Socket.java:365)
+java.net.Socket.<init>(Socket.java:207)
+com.enterprisedt.net.ftp.FTPControlSocket.<init>(FTPControlSocket.java:213)
+com.enterprisedt.net.ftp.FTPClient.connect(FTPClient.java:571)
+com.plexus.sam.net.FTPTransferModule.connect(FTPTransferModule.java:109)
+com.plexus.sam.audio.Repository.synchronize(Repository.java:217)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Couldn't connect to the server to synchronize. Check your settings and network connection.
+Stack trace:
+Fri Oct 14 01:44:11 CEST 2005
+com.plexus.sam.audio.Repository.synchronize(Repository.java:250)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Unable to write to the FTP connection.
+Stack trace:
+Fri Oct 14 01:44:12 CEST 2005
+java.net.PlainSocketImpl.socketConnect(Native Method)
+java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+java.net.SocksSocketImpl.connect(SocksSocketImpl.java:364)
+java.net.Socket.connect(Socket.java:507)
+java.net.Socket.connect(Socket.java:457)
+java.net.Socket.<init>(Socket.java:365)
+java.net.Socket.<init>(Socket.java:207)
+com.enterprisedt.net.ftp.FTPControlSocket.<init>(FTPControlSocket.java:213)
+com.enterprisedt.net.ftp.FTPClient.connect(FTPClient.java:571)
+com.plexus.sam.net.FTPTransferModule.connect(FTPTransferModule.java:109)
+com.plexus.sam.audio.Repository.synchronize(Repository.java:217)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Couldn't connect to the server to synchronize. Check your settings and network connection.
+Stack trace:
+Fri Oct 14 01:44:12 CEST 2005
+com.plexus.sam.audio.Repository.synchronize(Repository.java:250)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Unable to write to the FTP connection.
+Stack trace:
+Fri Oct 14 01:44:14 CEST 2005
+java.net.PlainSocketImpl.socketConnect(Native Method)
+java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+java.net.SocksSocketImpl.connect(SocksSocketImpl.java:364)
+java.net.Socket.connect(Socket.java:507)
+java.net.Socket.connect(Socket.java:457)
+java.net.Socket.<init>(Socket.java:365)
+java.net.Socket.<init>(Socket.java:207)
+com.enterprisedt.net.ftp.FTPControlSocket.<init>(FTPControlSocket.java:213)
+com.enterprisedt.net.ftp.FTPClient.connect(FTPClient.java:571)
+com.plexus.sam.net.FTPTransferModule.connect(FTPTransferModule.java:109)
+com.plexus.sam.audio.Repository.synchronize(Repository.java:217)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Couldn't connect to the server to synchronize. Check your settings and network connection.
+Stack trace:
+Fri Oct 14 01:44:15 CEST 2005
+com.plexus.sam.audio.Repository.synchronize(Repository.java:250)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Unable to write to the FTP connection.
+Stack trace:
+Fri Oct 14 01:44:16 CEST 2005
+java.net.PlainSocketImpl.socketConnect(Native Method)
+java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+java.net.SocksSocketImpl.connect(SocksSocketImpl.java:364)
+java.net.Socket.connect(Socket.java:507)
+java.net.Socket.connect(Socket.java:457)
+java.net.Socket.<init>(Socket.java:365)
+java.net.Socket.<init>(Socket.java:207)
+com.enterprisedt.net.ftp.FTPControlSocket.<init>(FTPControlSocket.java:213)
+com.enterprisedt.net.ftp.FTPClient.connect(FTPClient.java:571)
+com.plexus.sam.net.FTPTransferModule.connect(FTPTransferModule.java:109)
+com.plexus.sam.audio.Repository.synchronize(Repository.java:217)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Couldn't connect to the server to synchronize. Check your settings and network connection.
+Stack trace:
+Fri Oct 14 01:44:17 CEST 2005
+com.plexus.sam.audio.Repository.synchronize(Repository.java:250)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Unable to write to the FTP connection.
+Stack trace:
+Fri Oct 14 01:44:20 CEST 2005
+java.net.PlainSocketImpl.socketConnect(Native Method)
+java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+java.net.SocksSocketImpl.connect(SocksSocketImpl.java:364)
+java.net.Socket.connect(Socket.java:507)
+java.net.Socket.connect(Socket.java:457)
+java.net.Socket.<init>(Socket.java:365)
+java.net.Socket.<init>(Socket.java:207)
+com.enterprisedt.net.ftp.FTPControlSocket.<init>(FTPControlSocket.java:213)
+com.enterprisedt.net.ftp.FTPClient.connect(FTPClient.java:571)
+com.plexus.sam.net.FTPTransferModule.connect(FTPTransferModule.java:109)
+com.plexus.sam.audio.Repository.synchronize(Repository.java:217)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Couldn't connect to the server to synchronize. Check your settings and network connection.
+Stack trace:
+Fri Oct 14 01:44:20 CEST 2005
+com.plexus.sam.audio.Repository.synchronize(Repository.java:250)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Unable to write to the FTP connection.
+Stack trace:
+Fri Oct 14 01:47:49 CEST 2005
+java.net.PlainSocketImpl.socketConnect(Native Method)
+java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+java.net.SocksSocketImpl.connect(SocksSocketImpl.java:364)
+java.net.Socket.connect(Socket.java:507)
+java.net.Socket.connect(Socket.java:457)
+java.net.Socket.<init>(Socket.java:365)
+java.net.Socket.<init>(Socket.java:207)
+com.enterprisedt.net.ftp.FTPControlSocket.<init>(FTPControlSocket.java:213)
+com.enterprisedt.net.ftp.FTPClient.connect(FTPClient.java:571)
+com.plexus.sam.net.FTPTransferModule.connect(FTPTransferModule.java:109)
+com.plexus.sam.audio.Repository.synchronize(Repository.java:217)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Couldn't connect to the server to synchronize. Check your settings and network connection.
+Stack trace:
+Fri Oct 14 01:47:49 CEST 2005
+com.plexus.sam.audio.Repository.synchronize(Repository.java:250)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Unable to write to the FTP connection.
+Stack trace:
+Fri Oct 14 01:47:52 CEST 2005
+java.net.PlainSocketImpl.socketConnect(Native Method)
+java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+java.net.SocksSocketImpl.connect(SocksSocketImpl.java:364)
+java.net.Socket.connect(Socket.java:507)
+java.net.Socket.connect(Socket.java:457)
+java.net.Socket.<init>(Socket.java:365)
+java.net.Socket.<init>(Socket.java:207)
+com.enterprisedt.net.ftp.FTPControlSocket.<init>(FTPControlSocket.java:213)
+com.enterprisedt.net.ftp.FTPClient.connect(FTPClient.java:571)
+com.plexus.sam.net.FTPTransferModule.connect(FTPTransferModule.java:109)
+com.plexus.sam.audio.Repository.synchronize(Repository.java:217)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Couldn't connect to the server to synchronize. Check your settings and network connection.
+Stack trace:
+Fri Oct 14 01:47:53 CEST 2005
+com.plexus.sam.audio.Repository.synchronize(Repository.java:250)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Unable to write to the FTP connection.
+Stack trace:
+Fri Oct 14 01:47:56 CEST 2005
+java.net.PlainSocketImpl.socketConnect(Native Method)
+java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+java.net.SocksSocketImpl.connect(SocksSocketImpl.java:364)
+java.net.Socket.connect(Socket.java:507)
+java.net.Socket.connect(Socket.java:457)
+java.net.Socket.<init>(Socket.java:365)
+java.net.Socket.<init>(Socket.java:207)
+com.enterprisedt.net.ftp.FTPControlSocket.<init>(FTPControlSocket.java:213)
+com.enterprisedt.net.ftp.FTPClient.connect(FTPClient.java:571)
+com.plexus.sam.net.FTPTransferModule.connect(FTPTransferModule.java:109)
+com.plexus.sam.audio.Repository.synchronize(Repository.java:217)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Couldn't connect to the server to synchronize. Check your settings and network connection.
+Stack trace:
+Fri Oct 14 01:47:56 CEST 2005
+com.plexus.sam.audio.Repository.synchronize(Repository.java:250)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.BasicEvent.run(BasicEvent.java:65)
+com.plexus.sam.event.EventScheduler$1.run(EventScheduler.java:128)
+java.util.TimerThread.mainLoop(Timer.java:512)
+java.util.TimerThread.run(Timer.java:462)
+----------------------------------------------------------------
+Unable to write to the FTP connection.
+Stack trace:
+Fri Oct 14 01:48:20 CEST 2005
+java.net.PlainSocketImpl.socketConnect(Native Method)
+java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+java.net.SocksSocketImpl.connect(SocksSocketImpl.java:364)
+java.net.Socket.connect(Socket.java:507)
+java.net.Socket.connect(Socket.java:457)
+java.net.Socket.<init>(Socket.java:365)
+java.net.Socket.<init>(Socket.java:207)
+com.enterprisedt.net.ftp.FTPControlSocket.<init>(FTPControlSocket.java:213)
+com.enterprisedt.net.ftp.FTPClient.connect(FTPClient.java:571)
+com.plexus.sam.net.FTPTransferModule.connect(FTPTransferModule.java:109)
+com.plexus.sam.audio.Repository.synchronize(Repository.java:217)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.RepositorySynchronizer.syncNow(RepositorySynchronizer.java:69)
+com.plexus.sam.gui.actions.SynchronizeNowAction$1.run(SynchronizeNowAction.java:41)
+java.lang.Thread.run(Thread.java:595)
+----------------------------------------------------------------
+Couldn't connect to the server to synchronize. Check your settings and network connection.
+Stack trace:
+Fri Oct 14 01:48:20 CEST 2005
+com.plexus.sam.audio.Repository.synchronize(Repository.java:250)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.RepositorySynchronizer.syncNow(RepositorySynchronizer.java:69)
+com.plexus.sam.gui.actions.SynchronizeNowAction$1.run(SynchronizeNowAction.java:41)
+java.lang.Thread.run(Thread.java:595)
+----------------------------------------------------------------
+Unable to write to the FTP connection.
+Stack trace:
+Fri Oct 14 01:48:32 CEST 2005
+java.net.PlainSocketImpl.socketConnect(Native Method)
+java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+java.net.SocksSocketImpl.connect(SocksSocketImpl.java:364)
+java.net.Socket.connect(Socket.java:507)
+java.net.Socket.connect(Socket.java:457)
+java.net.Socket.<init>(Socket.java:365)
+java.net.Socket.<init>(Socket.java:207)
+com.enterprisedt.net.ftp.FTPControlSocket.<init>(FTPControlSocket.java:213)
+com.enterprisedt.net.ftp.FTPClient.connect(FTPClient.java:571)
+com.plexus.sam.net.FTPTransferModule.connect(FTPTransferModule.java:109)
+com.plexus.sam.audio.Repository.synchronize(Repository.java:217)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.RepositorySynchronizer.syncNow(RepositorySynchronizer.java:69)
+com.plexus.sam.gui.actions.SynchronizeNowAction$1.run(SynchronizeNowAction.java:41)
+java.lang.Thread.run(Thread.java:595)
+----------------------------------------------------------------
+Couldn't connect to the server to synchronize. Check your settings and network connection.
+Stack trace:
+Fri Oct 14 01:48:32 CEST 2005
+com.plexus.sam.audio.Repository.synchronize(Repository.java:250)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.RepositorySynchronizer.syncNow(RepositorySynchronizer.java:69)
+com.plexus.sam.gui.actions.SynchronizeNowAction$1.run(SynchronizeNowAction.java:41)
+java.lang.Thread.run(Thread.java:595)
+----------------------------------------------------------------
+Unable to write to the FTP connection.
+Stack trace:
+Fri Oct 14 01:48:51 CEST 2005
+java.net.PlainSocketImpl.socketConnect(Native Method)
+java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+java.net.SocksSocketImpl.connect(SocksSocketImpl.java:364)
+java.net.Socket.connect(Socket.java:507)
+java.net.Socket.connect(Socket.java:457)
+java.net.Socket.<init>(Socket.java:365)
+java.net.Socket.<init>(Socket.java:207)
+com.enterprisedt.net.ftp.FTPControlSocket.<init>(FTPControlSocket.java:213)
+com.enterprisedt.net.ftp.FTPClient.connect(FTPClient.java:571)
+com.plexus.sam.net.FTPTransferModule.connect(FTPTransferModule.java:109)
+com.plexus.sam.audio.Repository.synchronize(Repository.java:217)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.RepositorySynchronizer.syncNow(RepositorySynchronizer.java:69)
+com.plexus.sam.gui.actions.SynchronizeNowAction$1.run(SynchronizeNowAction.java:41)
+java.lang.Thread.run(Thread.java:595)
+----------------------------------------------------------------
+Couldn't connect to the server to synchronize. Check your settings and network connection.
+Stack trace:
+Fri Oct 14 01:48:51 CEST 2005
+com.plexus.sam.audio.Repository.synchronize(Repository.java:250)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:48)
+com.plexus.sam.event.RepositorySynchronizer.syncNow(RepositorySynchronizer.java:69)
+com.plexus.sam.gui.actions.SynchronizeNowAction$1.run(SynchronizeNowAction.java:41)
+java.lang.Thread.run(Thread.java:595)
+----------------------------------------------------------------
+java.lang.NullPointerException
+A unrecoverable error occured.
+message : java.lang.NullPointerException
+Stack trace:
+Sat Oct 15 13:20:09 CEST 2005
+com.plexus.sam.audio.Mp3Song.getAuthor(Mp3Song.java:321)
+com.plexus.sam.gui.SongInfoPanel.update(SongInfoPanel.java:105)
+com.plexus.sam.gui.PlayerPanel.propertyChange(PlayerPanel.java:118)
+java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:333)
+java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:270)
+com.plexus.sam.audio.Player.nextFromPlaylist(Player.java:96)
+com.plexus.sam.audio.Player.setPlaylist(Player.java:319)
+com.plexus.sam.gui.actions.SetPlayerPlaylistAction.actionPerformed(SetPlayerPlaylistAction.java:48)
+javax.swing.JComboBox.fireActionEvent(JComboBox.java:1197)
+javax.swing.JComboBox.setSelectedItem(JComboBox.java:561)
+javax.swing.JComboBox.setSelectedIndex(JComboBox.java:597)
+com.plexus.sam.gui.PlayerPanel.<init>(PlayerPanel.java:92)
+com.plexus.sam.gui.SAMgui.<init>(SAMgui.java:60)
+com.plexus.sam.gui.SAMgui.singleInstance(SAMgui.java:45)
+com.plexus.sam.SAM.<init>(SAM.java:103)
+com.plexus.sam.SAM.main(SAM.java:162)
+----------------------------------------------------------------
+java.lang.Exception
+A song will be skipped for it could not be initialized for playback.
+message : C:\Documents and Settings\Arne\workspace\SAM\SAM-0.9rc2\songs\complete\Company Flow, Cannibal Ox, Aesop Rock, RJD2 - Simian D aka Feeling Ignorant [Co Flow f- Ill Bill] - Def Jux Presents _1_.mp3
+Stack trace:
+Sat Oct 15 13:35:23 CEST 2005
+com.plexus.sam.audio.SongStream.run(SongStream.java:295)
+java.lang.Thread.run(Thread.java:595)
+----------------------------------------------------------------
+java.lang.Exception
+A song will be skipped for it could not be initialized for playback.
+message : C:\Documents and Settings\Arne\workspace\SAM\SAM-0.9rc2\songs\complete\Company Flow, Cannibal Ox, Aesop Rock, RJD2 - Simian D aka Feeling Ignorant [Co Flow f- Ill Bill] - Def Jux Presents _1_.mp3
+Stack trace:
+Sat Oct 15 13:35:41 CEST 2005
+com.plexus.sam.audio.SongStream.run(SongStream.java:295)
+java.lang.Thread.run(Thread.java:595)
+----------------------------------------------------------------
+java.lang.Exception
+A song will be skipped for it could not be initialized for playback.
+message : C:\Documents and Settings\Arne\workspace\SAM\SAM-0.9rc2\songs\complete\Company Flow, Cannibal Ox, Aesop Rock, RJD2 - Kill Em All [Aesop Rock] - Def Jux Presents.mp3
+Stack trace:
+Sat Oct 15 13:35:46 CEST 2005
+com.plexus.sam.audio.SongStream.run(SongStream.java:295)
+java.lang.Thread.run(Thread.java:595)
+----------------------------------------------------------------
+java.lang.Exception
+A song will be skipped for it could not be initialized for playback.
+message : C:\Documents and Settings\Arne\workspace\SAM\SAM-0.9rc2\songs\complete\Company Flow, Cannibal Ox, Aesop Rock, RJD2 - Simian D aka Feeling Ignorant [Co Flow f- Ill Bill] - Def Jux Presents _1_.mp3
+Stack trace:
+Sat Oct 15 13:35:53 CEST 2005
+com.plexus.sam.audio.SongStream.run(SongStream.java:295)
+java.lang.Thread.run(Thread.java:595)
+----------------------------------------------------------------
+java.lang.Exception
+A song will be skipped for it could not be initialized for playback.
+message : C:\Documents and Settings\Arne\workspace\SAM\SAM-0.9rc2\songs\complete\Company Flow, Cannibal Ox, Aesop Rock, RJD2 - Silver Fox [RJD2] - Def Jux Presents.mp3
+Stack trace:
+Sat Oct 15 13:35:54 CEST 2005
+com.plexus.sam.audio.SongStream.run(SongStream.java:295)
+java.lang.Thread.run(Thread.java:595)
+----------------------------------------------------------------
+java.lang.Exception
+A song will be skipped for it could not be initialized for playback.
+message : C:\Documents and Settings\Arne\workspace\SAM\SAM-0.9rc2\songs\complete\Company Flow, Cannibal Ox, Aesop Rock, RJD2 - Kill Em All [Aesop Rock] - Def Jux Presents.mp3
+Stack trace:
+Sat Oct 15 13:35:54 CEST 2005
+com.plexus.sam.audio.SongStream.run(SongStream.java:295)
+java.lang.Thread.run(Thread.java:595)
+----------------------------------------------------------------
+java.lang.Exception
+A song will be skipped for it could not be initialized for playback.
+message : C:\Documents and Settings\Arne\workspace\SAM\SAM-0.9rc2\songs\complete\Company Flow, Cannibal Ox, Aesop Rock, RJD2 - Silver Fox [RJD2] - Def Jux Presents.mp3
+Stack trace:
+Sat Oct 15 13:35:55 CEST 2005
+com.plexus.sam.audio.SongStream.run(SongStream.java:295)
+java.lang.Thread.run(Thread.java:595)
+----------------------------------------------------------------
+java.lang.UnsatisfiedLinkError
+The selected serial port could not be opened, this could be because it is in use by another application, because you lack permissions, or because the RXTX librarys are not installed.
+message : LPT1
+Stack trace:
+Sat Oct 15 14:12:54 CEST 2005
+java.lang.ClassLoader.loadLibrary(ClassLoader.java:1682)
+java.lang.Runtime.loadLibrary0(Runtime.java:822)
+java.lang.System.loadLibrary(System.java:992)
+gnu.io.LPRPort.<clinit>(LPRPort.java:35)
+gnu.io.RXTXCommDriver.getCommPort(RXTXCommDriver.java:779)
+gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:343)
+com.plexus.sam.comm.SerialPortConnection.openConnection(SerialPortConnection.java:48)
+com.plexus.sam.comm.TriggerModel.activate(TriggerModel.java:290)
+com.plexus.sam.gui.TriggerPanel.<init>(TriggerPanel.java:54)
+com.plexus.sam.gui.SAMgui.<init>(SAMgui.java:73)
+com.plexus.sam.gui.SAMgui.singleInstance(SAMgui.java:46)
+com.plexus.sam.SAM.<init>(SAM.java:103)
+com.plexus.sam.SAM.main(SAM.java:162)
+----------------------------------------------------------------
+java.lang.Exception
+Failed to activate external triggers.
+message : null
+Stack trace:
+Sat Oct 15 14:12:55 CEST 2005
+com.plexus.sam.comm.TriggerModel.activate(TriggerModel.java:294)
+com.plexus.sam.gui.TriggerPanel.<init>(TriggerPanel.java:54)
+com.plexus.sam.gui.SAMgui.<init>(SAMgui.java:73)
+com.plexus.sam.gui.SAMgui.singleInstance(SAMgui.java:46)
+com.plexus.sam.SAM.<init>(SAM.java:103)
+com.plexus.sam.SAM.main(SAM.java:162)
+----------------------------------------------------------------
+java.lang.Exception
+A song will be skipped for it could not be initialized for playback.
+message : C:\Documents and Settings\Arne\workspace\SAM\SAM-0.9rc2\songs\complete\Company Flow, Cannibal Ox, Aesop Rock, RJD2 - Kill Em All [Aesop Rock] - Def Jux Presents.mp3
+Stack trace:
+Sat Oct 15 14:13:32 CEST 2005
+com.plexus.sam.audio.SongStream.run(SongStream.java:302)
+java.lang.Thread.run(Thread.java:595)
+----------------------------------------------------------------
+java.lang.Exception
+A song will be skipped for it could not be initialized for playback.
+message : C:\Documents and Settings\Arne\workspace\SAM\SAM-0.9rc2\songs\complete\Company Flow, Cannibal Ox, Aesop Rock, RJD2 - Simian D aka Feeling Ignorant [Co Flow f- Ill Bill] - Def Jux Presents _1_.mp3
+Stack trace:
+Sat Oct 15 14:13:33 CEST 2005
+com.plexus.sam.audio.SongStream.run(SongStream.java:302)
+java.lang.Thread.run(Thread.java:595)
+----------------------------------------------------------------
+java.lang.Exception
+A song will be skipped for it could not be initialized for playback.
+message : C:\Documents and Settings\Arne\workspace\SAM\SAM-0.9rc2\songs\complete\Company Flow, Cannibal Ox, Aesop Rock, RJD2 - Silver Fox [RJD2] - Def Jux Presents.mp3
+Stack trace:
+Sat Oct 15 14:13:34 CEST 2005
+com.plexus.sam.audio.SongStream.run(SongStream.java:302)
+java.lang.Thread.run(Thread.java:595)
+----------------------------------------------------------------
+gnu.io.NoSuchPortException
+The serial port specified in the configuration could not be opened.
+message : COM1
+Stack trace:
+Sat Oct 15 14:14:20 CEST 2005
+gnu.io.CommPortIdentifier.getPortIdentifier(CommPortIdentifier.java:218)
+com.plexus.sam.comm.SerialPortConnection.openConnection(SerialPortConnection.java:41)
+com.plexus.sam.comm.TriggerModel.activate(TriggerModel.java:290)
+com.plexus.sam.gui.TriggerPanel.<init>(TriggerPanel.java:54)
+com.plexus.sam.gui.SAMgui.<init>(SAMgui.java:73)
+com.plexus.sam.gui.SAMgui.singleInstance(SAMgui.java:46)
+com.plexus.sam.SAM.<init>(SAM.java:103)
+com.plexus.sam.SAM.main(SAM.java:162)
+----------------------------------------------------------------
+java.lang.Exception
+Failed to activate external triggers.
+message : null
+Stack trace:
+Sat Oct 15 14:14:20 CEST 2005
+com.plexus.sam.comm.TriggerModel.activate(TriggerModel.java:294)
+com.plexus.sam.gui.TriggerPanel.<init>(TriggerPanel.java:54)
+com.plexus.sam.gui.SAMgui.<init>(SAMgui.java:73)
+com.plexus.sam.gui.SAMgui.singleInstance(SAMgui.java:46)
+com.plexus.sam.SAM.<init>(SAM.java:103)
+com.plexus.sam.SAM.main(SAM.java:162)
+----------------------------------------------------------------
+java.lang.Exception
+A song will be skipped for it could not be initialized for playback.
+message : C:\Documents and Settings\Arne\workspace\SAM\SAM-0.9rc2\songs\complete\Company Flow, Cannibal Ox, Aesop Rock, RJD2 - Kill Em All [Aesop Rock] - Def Jux Presents.mp3
+Stack trace:
+Sat Oct 15 14:55:28 CEST 2005
+com.plexus.sam.audio.SongStream.run(SongStream.java:298)
+java.lang.Thread.run(Thread.java:595)
+----------------------------------------------------------------
+com.enterprisedt.net.ftp.FTPException
+Unable to get a file via FTP.
+message : /home/arne/gtk-gnutella-downloads/corrupt/Jacques Brel - Une ?le.mp3: No such file or directory.
+Stack trace:
+Sat Oct 15 16:32:52 CEST 2005
+com.enterprisedt.net.ftp.FTPControlSocket.validateReply(FTPControlSocket.java:755)
+com.enterprisedt.net.ftp.FTPClient.initGet(FTPClient.java:1639)
+com.enterprisedt.net.ftp.FTPClient.getData(FTPClient.java:1683)
+com.enterprisedt.net.ftp.FTPClient.get(FTPClient.java:1587)
+com.plexus.sam.net.FTPTransferModule.getFile(FTPTransferModule.java:144)
+com.plexus.sam.audio.Repository.recurseIntoDir(Repository.java:290)
+com.plexus.sam.audio.Repository.synchronize(Repository.java:227)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:49)
+com.plexus.sam.event.RepositorySynchronizer.syncNow(RepositorySynchronizer.java:69)
+com.plexus.sam.gui.actions.SynchronizeNowAction$1.run(SynchronizeNowAction.java:41)
+java.lang.Thread.run(Thread.java:595)
+----------------------------------------------------------------
+com.enterprisedt.net.ftp.FTPException
+Unable to get a file via FTP.
+message : /home/arne/gtk-gnutella-downloads/corrupt/Jacques Brel - Une ?le.mp3: No such file or directory.
+Stack trace:
+Sat Oct 15 16:33:45 CEST 2005
+com.enterprisedt.net.ftp.FTPControlSocket.validateReply(FTPControlSocket.java:755)
+com.enterprisedt.net.ftp.FTPClient.initGet(FTPClient.java:1639)
+com.enterprisedt.net.ftp.FTPClient.getData(FTPClient.java:1683)
+com.enterprisedt.net.ftp.FTPClient.get(FTPClient.java:1587)
+com.plexus.sam.net.FTPTransferModule.getFile(FTPTransferModule.java:144)
+com.plexus.sam.audio.Repository.recurseIntoDir(Repository.java:290)
+com.plexus.sam.audio.Repository.synchronize(Repository.java:227)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:49)
+com.plexus.sam.event.RepositorySynchronizer.syncNow(RepositorySynchronizer.java:69)
+com.plexus.sam.gui.actions.SynchronizeNowAction$1.run(SynchronizeNowAction.java:41)
+java.lang.Thread.run(Thread.java:595)
+----------------------------------------------------------------
+java.lang.NullPointerException
+Synchronizing the repository with the server failed :
+message : null
+Stack trace:
+Sat Oct 15 16:39:32 CEST 2005
+java.util.TreeMap.compare(TreeMap.java:1093)
+java.util.TreeMap.getEntry(TreeMap.java:347)
+java.util.TreeMap.remove(TreeMap.java:506)
+java.util.TreeSet.remove(TreeSet.java:223)
+com.plexus.sam.audio.Repository.synchronize(Repository.java:241)
+com.plexus.sam.event.SyncEvent.execute(SyncEvent.java:49)
+com.plexus.sam.event.RepositorySynchronizer.syncNow(RepositorySynchronizer.java:69)
+com.plexus.sam.gui.actions.SynchronizeNowAction$1.run(SynchronizeNowAction.java:41)
+java.lang.Thread.run(Thread.java:595)
+----------------------------------------------------------------
+org.xml.sax.SAXParseException
+Loading the automatic start/stop rules failed.
+message : Content is not allowed in trailing section.
+Stack trace:
+Sat Nov 07 21:38:20 CET 2009
+com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:195)
+com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:174)
+com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:388)
+com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1414)
+com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$TrailingMiscDriver.next(XMLDocumentScannerImpl.java:1458)
+com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:648)
+com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:807)
+com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:737)
+com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:107)
+com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1205)
+com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+javax.xml.parsers.SAXParser.parse(SAXParser.java:395)
+javax.xml.parsers.SAXParser.parse(SAXParser.java:331)
+com.plexus.sam.event.Autoplayer.load(Unknown Source)
+com.plexus.sam.event.Autoplayer.<init>(Unknown Source)
+com.plexus.sam.gui.SAMgui.<init>(Unknown Source)
+com.plexus.sam.gui.SAMgui.singleInstance(Unknown Source)
+com.plexus.sam.SAM.<init>(Unknown Source)
+com.plexus.sam.SAM.main(Unknown Source)
+----------------------------------------------------------------
+java.lang.UnsatisfiedLinkError
+The selected serial port could not be opened, this could be because it is in use by another application, because you lack permissions, or because the RXTX librarys are not installed.
+message : COM3
+Stack trace:
+Sat Nov 07 21:38:25 CET 2009
+java.lang.ClassLoader.loadLibrary(ClassLoader.java:1709)
+java.lang.Runtime.loadLibrary0(Runtime.java:823)
+java.lang.System.loadLibrary(System.java:1028)
+gnu.io.CommPortIdentifier.<clinit>(CommPortIdentifier.java:83)
+com.plexus.sam.comm.SerialPortConnection.openConnection(Unknown Source)
+com.plexus.sam.comm.TriggerModel.activate(Unknown Source)
+com.plexus.sam.gui.TriggerPanel.<init>(Unknown Source)
+com.plexus.sam.gui.SAMgui.<init>(Unknown Source)
+com.plexus.sam.gui.SAMgui.singleInstance(Unknown Source)
+com.plexus.sam.SAM.<init>(Unknown Source)
+com.plexus.sam.SAM.main(Unknown Source)
+----------------------------------------------------------------
+java.lang.Exception
+Failed to activate external triggers.
+message : null
+Stack trace:
+Sat Nov 07 21:38:27 CET 2009
+com.plexus.sam.comm.TriggerModel.activate(Unknown Source)
+com.plexus.sam.gui.TriggerPanel.<init>(Unknown Source)
+com.plexus.sam.gui.SAMgui.<init>(Unknown Source)
+com.plexus.sam.gui.SAMgui.singleInstance(Unknown Source)
+com.plexus.sam.SAM.<init>(Unknown Source)
+com.plexus.sam.SAM.main(Unknown Source)

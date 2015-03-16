@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.5.0_05" class="java.beans.XMLDecoder"> 
+ <object class="com.plexus.sam.comm.TriggerModel$Trigger"> 
+  <void property="song"> 
+   <long>18</long> 
+  </void> 
+  <void property="triggerHex"> 
+   <string>6171</string> 
+  </void> 
+ </object> 
+ <object class="com.plexus.sam.comm.TriggerModel$Trigger"> 
+  <void property="triggerHex"> 
+   <string>7A</string> 
+  </void> 
+ </object> 
+</java> 

@@ -1,0 +1,13 @@
+com.plexus.beans
+com.plexus.debug
+com.plexus.sam
+com.plexus.sam.audio
+com.plexus.sam.config
+com.plexus.sam.event
+com.plexus.sam.gui
+com.plexus.sam.gui.actions
+com.plexus.sam.gui.config
+com.plexus.sam.gui.dialogs
+com.plexus.sam.gui.models
+com.plexus.sam.net
+com.plexus.sam.testcases

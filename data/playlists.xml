@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_16" class="java.beans.XMLDecoder"> 
+ <object class="com.plexus.sam.audio.SimplePlaylist"> 
+  <void property="name"> 
+   <string>sq</string> 
+  </void> 
+  <void property="songIds"> 
+   <array class="long" length="4"> 
+    <void index="0"> 
+     <long>4</long> 
+    </void> 
+    <void index="1"> 
+     <long>5</long> 
+    </void> 
+    <void index="2"> 
+     <long>7</long> 
+    </void> 
+    <void index="3"> 
+     <long>2</long> 
+    </void> 
+   </array> 
+  </void> 
+ </object> 
+ <object class="com.plexus.sam.audio.DynamicPlaylist"> 
+  <void property="name"> 
+   <string>dyba</string> 
+  </void> 
+  <void property="values"> 
+   <array class="com.plexus.sam.audio.DynamicPlaylist$Relevance" length="2"> 
+    <void index="0"> 
+     <object class="com.plexus.sam.audio.DynamicPlaylist$Relevance"> 
+      <void property="groupname"> 
+       <string>jacques_brel</string> 
+      </void> 
+      <void property="value"> 
+       <float>72.0</float> 
+      </void> 
+     </object> 
+    </void> 
+    <void index="1"> 
+     <object class="com.plexus.sam.audio.DynamicPlaylist$Relevance"> 
+      <void property="groupname"> 
+       <string>complete</string> 
+      </void> 
+      <void property="value"> 
+       <float>26.0</float> 
+      </void> 
+     </object> 
+    </void> 
+   </array> 
+  </void> 
+ </object> 
+ <object class="com.plexus.sam.audio.RulesPlaylist"> 
+  <void property="name"> 
+   <string>rules</string> 
+  </void> 
+  <void property="rules"> 
+   <array class="com.plexus.sam.event.SongRule" length="1"> 
+    <void index="0"> 
+     <object class="com.plexus.sam.event.SongRule"> 
+      <void property="dayofweek"> 
+       <int>8</int> 
+      </void> 
+      <void property="song"> 
+       <object class="com.plexus.sam.audio.Mp3Song"> 
+        <void property="file"> 
+         <string>/home/arne/work/eclipse_workspace/SAM/C:\Documents and Settings\Arne\workspace\SAM\SAM-0.9rc2\songs\jacques_brel\Jacques Brel - Seul.mp3</string> 
+        </void> 
+        <void property="id"> 
+         <long>13</long> 
+        </void> 
+       </object> 
+      </void> 
+      <void property="time"> 
+       <void property="hours"> 
+        <int>12</int> 
+       </void> 
+      </void> 
+     </object> 
+    </void> 
+   </array> 
+  </void> 
+  <void id="DynamicPlaylist$RelevanceArray0" property="values"/> 
+  <void property="values"> 
+   <object idref="DynamicPlaylist$RelevanceArray0"/> 
+  </void> 
+ </object> 
+ <object class="com.plexus.sam.audio.SimplePlaylist"> 
+  <void property="name"> 
+   <string>testje</string> 
+  </void> 
+  <void id="longArray0" property="songIds"/> 
+  <void property="songIds"> 
+   <object idref="longArray0"/> 
+  </void> 
+ </object> 
+</java> 

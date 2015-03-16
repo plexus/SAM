@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.5.0_03" class="java.beans.XMLDecoder"> 
+ <object class="com.plexus.sam.gui.config.ConfigurationPanel"> 
+  <void id="ArrayList0" property="groupPanels"> 
+   <void method="add"> 
+    <object class="com.plexus.sam.gui.config.ConfigGroupPanel"> 
+     <void property="groupname"> 
+      <string>ftp</string> 
+     </void> 
+     <void property="widgets"> 
+      <void method="add"> 
+       <object class="com.plexus.sam.gui.config.TextWidget"> 
+        <void property="alignmentX"> 
+         <float>0.010471204</float> 
+        </void> 
+        <void property="descriptionKey"> 
+         <string>ftp_uid</string> 
+        </void> 
+        <void property="group"> 
+         <string>ftp</string> 
+        </void> 
+        <void property="key"> 
+         <string>user_id</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.plexus.sam.gui.config.NumberWidget"> 
+        <void property="alignmentX"> 
+         <float>0.0068965517</float> 
+        </void> 
+        <void property="descriptionKey"> 
+         <string>ftp_control_port</string> 
+        </void> 
+        <void property="group"> 
+         <string>ftp</string> 
+        </void> 
+        <void property="key"> 
+         <string>control_port</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.plexus.sam.gui.config.FileWidget"> 
+        <void property="alignmentX"> 
+         <float>0.18548387</float> 
+        </void> 
+        <void property="descriptionKey"> 
+         <string>general_repository_local</string> 
+        </void> 
+        <void property="group"> 
+         <string>general</string> 
+        </void> 
+        <void property="key"> 
+         <string>repository_local</string> 
+        </void> 
+       </object> 
+      </void> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="com.plexus.sam.gui.config.ConfigGroupPanel"> 
+     <void property="groupname"> 
+      <string>locale</string> 
+     </void> 
+     <void property="widgets"> 
+      <void method="add"> 
+       <object class="com.plexus.sam.gui.config.ChoiceWidget"> 
+        <void property="descriptionKey"> 
+         <string>locale_local</string> 
+        </void> 
+        <void property="group"> 
+         <string>i18n</string> 
+        </void> 
+        <void property="key"> 
+         <string>set_locale</string> 
+        </void> 
+        <void property="keyValueMap"> 
+         <object class="java.util.HashMap"> 
+          <void method="put"> 
+           <string>true</string> 
+           <string>true</string> 
+          </void> 
+          <void method="put"> 
+           <string>false</string> 
+           <string>false</string> 
+          </void> 
+         </object> 
+        </void> 
+       </object> 
+      </void> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="groupPanels"> 
+   <object idref="ArrayList0"/> 
+  </void> 
+ </object> 
+</java> 
